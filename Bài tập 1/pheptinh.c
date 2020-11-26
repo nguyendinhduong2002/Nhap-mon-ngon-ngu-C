@@ -1,27 +1,15 @@
 #include <stdio.h>
 
-int main() {	
-	//khai bao bien a , b
-	int a,b;
-	a = 3;b=5;
+int main (void){
 	
-	int tong; int hieu; int thuong; int tich;
+	int a ;int b;
+	a=3;b=5;
+	a+b; a-b; a*b; a/b;
 	
-	tong=a+b ; hieu=a-b ; thuong=a/b ; tich=a*b;
+	double c = 3;
+    	double d = 5;
 	
-	printf ("tong= %d\n",a+b );
-	
-	printf ("hieu=%d\n",a-b);
-	
-	printf("thuong=%d\n",a/b);
-	
-	printf("tich=%d\n",a*b);
-	
-	double c=3;
-	double d=5;
-	
-	printf("thuong=%g",c/d);
-	
-	getchar();
-  	return 0;
+	printf("a\t b\t a+b\t a-b\t a*b\t a/b\n");	
+	printf("%d\t %d\t %d\t %d\t %d\t %g",a,b,a+b,a-b,a*b,c/d);
+	return 0;
 }
