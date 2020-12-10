@@ -11,7 +11,7 @@ int main() {
   
   if (soluong <5){
   thanhtien = a * b;
-  printf("thanh tien \n");
+  printf("thanh tien cua ban \n");
   printf("%d",thanhtien);
   }
   
