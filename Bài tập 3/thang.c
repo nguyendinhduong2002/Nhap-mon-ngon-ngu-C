@@ -1,40 +1,26 @@
 #include <stdio.h>
+int main(){
 
-int main() {
-	//khai bao bien 
-	int thang;
-	char pt;
-	printf("vui long nhap thang");
-	scanf("%c", &thang);
-	switch(thang){
-		case '1':
-		 printf("31 ngay");break;
-        case '2': 
-		printf("28 ngay");break;
-		case '3': 
-		printf("31 ngay");break;
-		case '4': 
-		printf("30 ngay");break;
-		case '5': 
-		printf("31 ngay");break;
-		case '6': 
-		printf("30 ngay");break;
-		case '7': 
-		printf("31 ngay");break;
-		case '8': 
-		printf("31 ngay");break;
-		case '9': 
-		printf("30 ngay");break;
-		case '10': 
-		printf("31 ngay");break;
-		case '11': 
-		printf("30 ngay");break;
-		case '12': 
-		printf("31 ngay");break;
-		
-		
-		default: printf("vui long nhap ngay thang");
-	}
-	getchar ();
- 	return 0;
+  int thang;
+  printf ("vui long nhap thang ");
+  // nh?p phép tính c?ng ho?c tr?
+  scanf ("%d", &thang);
+  switch(thang) {
+     case 2:
+      printf (" 28 ngay");
+      break;
+  case 4 :   case 6 :  case 9 :   case 11 :
+     printf (" 30 ngay");
+      break;
+    case 1: 	case 3:	case 5:	case 7:	case 8: case 10:	case 12:
+	printf(" 31 ngay");
+	   break; 
+      default:
+       printf ( "vui long nhap tu thag 1 den thang 12");
+    
+  }
+ 
+  
+  getchar();
+  return 0;
 }
