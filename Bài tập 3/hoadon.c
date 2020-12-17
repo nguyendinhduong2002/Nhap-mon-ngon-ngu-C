@@ -1,8 +1,7 @@
 #include <stdio.h>
 int main() {
 	// khai bao bien
-	char a;
-	long b;
+	double a,b;
   int dongia,soluong,thanhtien;
   
   printf ("hay nhap don gia  = "); scanf("%d",&a);
