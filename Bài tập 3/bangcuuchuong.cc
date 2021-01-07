@@ -2,11 +2,11 @@
 
 int main(void) {
   int n;//khai báo 1 s? nguyên n
-  printf("nhap:");// hi?n thi ra màn hình b?ng c?u chuong du?c nh?p t? bàn phím
+  printf("nhap:");// hien thi ra màn hình bang cuu chuong duoc nhap tu bàn phím
   scanf("%d", &n);
-   for(int i = 1; i <= n; i++){// d?t di?u ki?n hi?n th? ra b?ng nhân s? ....
+   for(int i = 1; i <= n; i++){// dieu kien hien thi ra bang nhân s? ....
      printf("bang cuu chuong cua: %d\n", i);
-    for (int j = 0; j <= 10; j++){// d?t di?u ki?n hi?n th? ra phép nhân trong b?ng c?u chuong
+    for (int j = 0; j <= 10; j++){//  dieu kien hien thi ra phép nhân trong bang cuu chuong
       printf("\t%d * %d = %d\n", i, j, i*j);
       } 
     }  
