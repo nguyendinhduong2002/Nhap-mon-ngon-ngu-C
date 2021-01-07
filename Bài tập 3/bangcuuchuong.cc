@@ -7,7 +7,7 @@ int main(void) {
   
   scanf("%d", &n);
    
-  for(int i = 1; i <= n; i++){// dieu kien hien thi ra bang nhân s? ....
+  for(int i = 1; i <= n; i++){// dieu kien hien thi ra bang nhân so 
      
      printf("bang cuu chuong cua: %d\n", i);
     
