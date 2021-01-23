@@ -1,0 +1,59 @@
+a) Trình bày bộ chữ  viết trong ngôn ngữ c:
+
+Bộ chữ viết trong ngôn ngữ C bao gồm những ký tự, ký hiệu sau: (phân biệt chữ in hoa và in thường):
+
+26 chữ cái latinh hoa A,B,C...Z
+26 chữ cái latinh thường a,b,c ...z.
+10 chữ số thập phân 0,1,2...9.
+Các ký hiệu toán học: +, -, *, /, =, <, >, (, )
+Các ký hiệu đặc biệt: :. , ; " ' _ @ # $ ! ^ [ ] { } ...
+Dấu cách hay khoảng trống, xuống hàng (\n) và tab (\t)
+
+B)Trình bày các kiểu dữ liệu cơ sở trong c:
+
+Bất cứ chương trình ứng dụng nào cần xử lý dữ liệu cũng cần có nơi để lưu
+trữ tạm thời dữ liệu ấy. Nơi mà dữ liệu được lưu trữ gọi là bộ nhớ.
+• Kiểu dữ liệu quy định kích thước bộ nhớ nơi dữ liệu được lưu trữ.
+• Dữ liệu chương trình có nhiều dạng như số (number), chuỗi (string hay
+text),…
+• Ngôn ngữ C cung cấp một tập các kiểu dữ liệu hỗ trợ cho việc lưu trữ
+nhiều dữ liệu khác nhau như mô tả bảng sau (theo tiêu chuẩn ANSI):
+
+C)Trình bày khái niệm và cú pháp khai báo biến trong ngôn ngữ c
+
+• Biến có thể được khai báo theo cú pháp:
+Kiểu_dữ_liệu Tên_biến;
+Trong đó: Kiểu_dữ_liệu là kiểu dữ liệu; Tên_biến là tên biến; Kết thúc khai báo
+biến là dấu chấm phẩy
+Ví dụ: int num; -> int là kiểu dữ liệu và num là tên biến
+
+D)Trình bày kháii niệm biến toàn cục và biến bộ cục trong ngôn ngữ c:
+
+Biến cục bộ hay địa phương (local variable)
+• Được khai báo bên trong các hàm hay khối lệnh (ví dụ biến đếm lệnh
+lặp for)
+• Chỉ có thể được sử dụng trong phạm vi hàm hay khối lệnh
+• Các tham số của hàm (nếu có) là các biến cục bộ của hàm đó
+
+Biến toàn cục (global variable)
+• Được khai báo bên ngoài tất cả các hàm (kể cả main)
+• Thường được khai báo tại Khối Khai Báo
+• Có thể được sử dụng tại mọi vị trí trong chương trình như các hàm,
+khối lệnh lặp for hay while
+
+e) Trình bày khái niệm và phân loại hàm trong ngôn ngữ C:
+khái niệm:
+• Hàm là một khối lệnh (nhiều lệnh) thực hiện một nhiệm vụ cụ thể nào
+đó (tính tổng, hiển thị thông báo đến người dùng,…)
+• Một cách hiểu khác về hàm: hàm là một sự chia nhỏ của chương
+trình
+
+Hàm có 2 loại:
+• Hàm thư viện chuẩn (Standard library functions):
+-Là các hàm được xây dựng sẵn (build-in functions) trong ngôn ngữ C như hàm
+scanf, printf, getchar,…
+-Các hàm này được định nghĩa trong các tập tin có phần mở rộng .h như
+stdio.h, conio.h,…Các tập tin này phải được gộp vào chương trình thông qua
+chỉ định #include
+
+f) Trình bày nguyên tắc hoạt động của Hàm trong ngôn ngữ C:
