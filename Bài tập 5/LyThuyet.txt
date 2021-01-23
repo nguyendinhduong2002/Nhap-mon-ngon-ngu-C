@@ -33,6 +33,7 @@ D)Trình bày kháii niệm biến toàn cục và biến bộ cục trong ngôn
 
 Biến cục bộ hay địa phương (local variable)
 • Được khai báo bên trong các hàm hay khối lệnh (ví dụ biến đếm lệnh
+
 lặp for)
 • Chỉ có thể được sử dụng trong phạm vi hàm hay khối lệnh
 • Các tham số của hàm (nếu có) là các biến cục bộ của hàm đó
@@ -59,12 +60,7 @@ stdio.h, conio.h,…Các tập tin này phải được gộp vào chương trì
 chỉ định #include
 
 f) Trình bày nguyên tắc hoạt động của Hàm trong ngôn ngữ C:
-Cấu trúc một chương trình C
-Một chương trình C gồm 3 khối cơ bản:
--Khối khai báo: khai báo sử dụng thư viện (#include), khai báo hàm,
-khai báo hằng số, khai báo biến (toàn cục),khai báo kiểu do người
-dùng định nghĩa,…
--Khối hàm main: chứa các biến và lời gọi hàm cần thiết cho chương
-trình
--Khối định nghĩa hàm: chứa tất cả các định nghĩa hàm đã khai báo
-trong khối khai báo.
+Nguyên Tắc hoạt động của hàm
+-Khi hàm được gọi ở bất kỳ chỗ nào chong chương trình thì hàm sẽ bắt đầu được thực hiện tức sẽ rời đi chỗ đó đến thực hiện hàm được gọi.
+-nếu là hàm có tham số thì chương trình sẽ thực hiện truyền tham số thực cho các tham số hình thức tương ứng trong hàm.
+-nếu hàm trả về giá trị của biểu thức return trong hàm sẽ là giá trị của hàm
