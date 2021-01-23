@@ -1,14 +1,15 @@
 
+
 #include<stdio.h>
 int main(){
-    int n;
+    int a;
    printf("Nhap  n:  ");
-    scanf("%d",&n);
+    scanf("%d",&a);
     int tong=0;
-    for(int i=1;i<=n;i++){
+    for(int i=1;i<=a;i++){
         tong = tong + i ;
     } 
-    printf("S = 1 + 2 +...+ %d",n);
+    printf("S = 1 + 2 +...+ %d",a);
     printf("\nTong = %d",tong);
   	return 0;
 }
